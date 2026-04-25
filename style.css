@@ -10,16 +10,6 @@ html, body {
   overflow-x: hidden;
 }
 
-body {
-  font-family: 'Poppins', sans-serif;
-  background:
-    radial-gradient(circle at top left, rgba(255, 182, 193, 0.55), transparent 30%),
-    radial-gradient(circle at top right, rgba(221, 160, 221, 0.45), transparent 28%),
-    linear-gradient(135deg, #fff7fb 0%, #ffeef7 40%, #f7f2ff 100%);
-  color: #3d2b3f;
-  position: relative;
-  min-height: 100vh;
-}
 
 .bg-orbs {
   position: fixed;
@@ -28,6 +18,20 @@ body {
   opacity: 0.55;
   pointer-events: none;
   animation: float 10s ease-in-out infinite;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(
+    135deg,
+    #f3e8ff 0%,   /* very light lavender */
+    #e9d5ff 25%,  /* soft pastel purple */
+    #d8b4fe 50%,  /* lavender */
+    #c084fc 75%,  /* deeper lavender */
+    #f5d0fe 100%  /* pinkish glow */
+  );
+  color: #3d2b3f;
+  min-height: 100vh;
 }
 
 .orb1 {
