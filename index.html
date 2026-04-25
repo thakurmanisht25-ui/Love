@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Love Please Forgive Me</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-orbs orb1"></div>
+  <div class="bg-orbs orb2"></div>
+  <div class="bg-orbs orb3"></div>
+
+  <main class="container">
+    <section class="card glass">
+      <div class="badge">A message for you 💌</div>
+      <h1 class="title">I am really sorry baby</h1>
+      <p class="subtitle">Please choose one option below.</p>
+
+      <div class="question-box">
+        <p class="question">Will you forgive me?</p>
+      </div>
+
+      <div class="attempts" id="attemptsText">Try count: 0 / 4</div>
+
+      <div class="buttons" id="buttonsArea">
+        <button id="yesBtn" class="btn yes">I forgive you 💖</button>
+        <button id="noBtn" class="btn no">I don’t forgive you 😒</button>
+      </div>
+
+      <p class="hint">Tap the second button if you dare.</p>
+    </section>
+  </main>
+
+  <div class="modal hidden" id="imageModal">
+    <div class="modal-card glass">
+      <button class="close-btn" id="closeModalBtn">×</button>
+      <img id="modalImage" src="" alt="Surprise" />
+      <h2 id="modalTitle">Love you</h2>
+      <p id="modalText"></p>
+    </div>
+  </div>
+
+  <div class="celebration hidden" id="celebration"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
