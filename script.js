@@ -13,7 +13,7 @@ const celebration = document.getElementById("celebration");
 let dodgeCount = 0;
 let celebrationTimer = null;
 
-const NO_IMAGE = "assets/sorry-image.jpg";
+const NO_IMAGE = "assets/sorry-image.jpeg";
 const YES_IMAGE = "assets/forgive-image.jpg";
 
 function updateAttempts() {
